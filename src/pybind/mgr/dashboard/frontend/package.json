@@ -51,7 +51,7 @@
     "@angular/http": "7.0.2",
     "@angular/platform-browser": "7.0.2",
     "@angular/platform-browser-dynamic": "7.0.2",
-    "@angular/router": "7.0.2",
+    "@angular/router": "7.2.15",
     "@auth0/angular-jwt": "2.0.0",
     "@ngx-translate/i18n-polyfill": "1.0.0",
     "@swimlane/ngx-datatable": "14.0.0",
