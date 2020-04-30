@@ -17,7 +17,9 @@
     "lint": "npm run lint:tslint && npm run lint:prettier && npm run lint:html",
     "fix:prettier": "prettier --write \"{src,e2e}/**/*.{ts,scss}\"",
     "fix:tslint": "npm run lint:tslint -- --fix",
-    "fix": "npm run fix:tslint; npm run fix:prettier"
+    "fix": "npm run fix:tslint; npm run fix:prettier",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "jest": {
@@ -68,7 +70,8 @@
     "ngx-bootstrap": "3.1.1",
     "rxjs": "6.3.3",
     "rxjs-compat": "6.2.2",
-    "zone.js": "0.8.26"
+    "zone.js": "0.8.26",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.10.4",
@@ -94,5 +97,6 @@
     "ts-node": "7.0.1",
     "tslint": "5.11.0",
     "typescript": "3.1.6"
-  }
+  },
+  "snyk": true
 }
